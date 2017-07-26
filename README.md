@@ -10,4 +10,4 @@ To start the app:
 2. `npm install`
 3. `npm start`
 
-The initial page loads weather data obtained by ip address of your machine. It currently only supports weather lookup by zipcode.
+This is a portrait infinite scroll slider. I'm planning on adding another mini-slider for each cover slide. Contributions are welcome. 
