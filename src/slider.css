@@ -1,0 +1,31 @@
+.slider {
+  width: 4000px;
+}
+
+.slider .slide {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slider-arrows {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.slider-arrows > .arrow {
+  margin-top: 300px;
+}
+
+.slider-arrows a {
+  cursor: pointer;
+  display: block;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.slider-arrows > .arrow.right {
+  right: 0;
+}
