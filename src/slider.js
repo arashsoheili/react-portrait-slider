@@ -25,7 +25,7 @@ export default class Slider extends Component {
     this.setState({images: images});
   }
 
-  renderArrows() {
+  renderNavigation() {
     return (
       <div className="slider-arrows">
         <a className="arrow left" onClick={() => this.slideLeft()}>
@@ -56,7 +56,7 @@ export default class Slider extends Component {
   render() {
     return (
       <div className="slider">
-        {this.renderArrows()}
+        {this.renderNavigation()}
         {this.renderSlides()}
       </div>
     )
