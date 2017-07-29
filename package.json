@@ -2,7 +2,7 @@
   "name": "react-portrait-slider",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://reactportraitslider.arashsoheili.com",
+  "homepage" : "http://reactslider.arashsoheili.com",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
